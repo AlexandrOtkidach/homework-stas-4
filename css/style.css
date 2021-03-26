@@ -1,0 +1,105 @@
+body{
+    background: url(../img/fon.jpg) no-repeat;
+    background-size: cover;
+    font-family: Verdana, Arial, serif;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+/*header*/
+.header{
+    height: 54px;
+    background: rgba(0, 0, 0, 0.41);
+}
+.header-text{
+    float: left;
+    padding: 14px 78px;
+}
+.header-title-link{
+    transition: all 0.2s ease;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header-title-link:hover{
+    color: #3cb878;
+}
+.header-icon{
+    position: relative;
+    float: right;
+    width: 150px;
+    height: 20px;
+}
+.header-icon-sprite {
+    position: relative;
+}
+.header-icon-sprite li{
+    margin:0;
+    padding:0;
+    position:absolute;
+    top: 17px;
+}
+.header-icon-sprite li, .sprite a{
+    height:20px;
+    display:block;
+}
+.header-icon-sprite-link{
+    display: block;
+    width: 28px;
+    height: 20px;
+}
+.calendar{
+    right: 125px;
+    width:20px;
+    background: url(../img/logo.png) -106px -10px;
+}
+.calendar:hover{
+    right: 125px;
+    width:20px;
+    background: url(../img/logo.png) -106px -49px;
+}
+.forum{
+    right: 70px;
+    width: 28px;
+    background: url(../img/logo.png) -10px -10px;
+}
+.forum:hover{
+    right: 70px;
+    width: 28px;
+    background: url(../img/logo.png) -58px -10px;
+}
+.journey{
+    right: 25px;
+    width: 20px;
+    background: url(../img/logo.png) -10px -50px;
+}
+.journey:hover{
+    right: 25px;
+    width: 20px;
+    background: url(../img/logo.png) -50px -50px;
+}
+.header-user{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 54px;
+    float: right;
+}
+.header-user::before{
+    content: "|";
+    opacity: 0.5;
+    color: #fff;
+}
+.header-user-text{
+    font-size: 14px;
+    padding: 20px 24px;
+    color: #fff;
+}
+.header-user-link{
+    color: #3cb878;
+}
+
+/*content-form*/
