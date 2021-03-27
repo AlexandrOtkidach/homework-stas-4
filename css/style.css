@@ -2,7 +2,6 @@ body{
     background: url(../img/fon.jpg) no-repeat;
     background-size: cover;
     font-family: Verdana, Arial, serif;
-    height: 768px;
     overflow-x: hidden;
 }
 .container{
@@ -108,14 +107,22 @@ body{
     text-transform: capitalize;
     color: #3cb878;
 }
+/*Выравнивание по ширине и высоте экрана*/
+.container-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+}
 /*content-form*/
 .wrapper{
     background: #fff;
     width: 444px;
     height: 584px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     border-radius: 10px;
-    margin-top: 65px;
+    /* margin-top: 65px; */
 }
 .wrapper-square{
     float: left;
