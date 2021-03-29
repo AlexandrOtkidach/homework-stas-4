@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
     <header>
@@ -48,18 +49,38 @@
                         </div>
                     </div>
                     <div class="wrapper-form-btn">
-                        <a href="#">
+                        <a href="#" class="btn-link btn-link-left">
                             <div class="btn btn-blue">
                                 <p class="btn-text btn-blue-text"></p>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="#" class="btn-link btn-link-right">
                             <div class="btn btn-red">
                                 <p class="btn-text btn-red-text"></p>
                             </div>
                         </a>
                     </div>
+                    <div class="wrapp-separator">
+                        <hr class="wrapp-separator-line">
+                        <p class="wrapp-separator-text"> or </p>
+                    </div>
+                    <div class="form">
+                        <form action="#">
+                            <input type="text" name="FirstName" class="input" placeholder="First Name" required>
+                            <input type="text" name="LastName" class="input" placeholder="Last Name" required>
+                            <input type="email" name="Email" class="input" placeholder="Email" required>
+                            <input type="password" name="ChoosePassword" class="input" placeholder="Choose Password" required>
+                            <input type="password" name="ConfirmPassword" class="input" placeholder="Confirm Password" required>
+                            <div class="btn-agreement">
+                                <input type="checkbox" class="input-checkbox" id="agreement" name="agreement" value="yes" required>
+                                <label for="agreement">Agree ore</label>
+                                <a href="#"  class="link-lable header-user-link"> terms & conditions</a>
+                            </div>
+                            <input type="submit" value="Create Acount">
+                        </form>
+                    </div>
                 </div>
+              
             </div>
             
         </div>
